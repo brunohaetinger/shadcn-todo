@@ -69,3 +69,29 @@ type Todo = {
     - Button → add & delete
     - Checkbox → mark tasks complete
     - Card → display each task
+
+📂 Project Structure
+
+```graphql
+src/
+├── components/        # ShadCN UI components live here
+├── App.tsx            # Main To-Do List logic
+├── main.tsx           # App entry point
+└── index.css          # Tailwind base styles
+
+```
+
+🎯 Learning Goals
+
+- Understand how to set up ShadCN UI
+- Learn how to use prebuilt, accessible UI components
+- Practice React state management with a real example
+- Get comfortable with Tailwind styling
+
+🧪 Possible Extensions
+
+✅ Persist todos in localStorage
+✅ Add filters (All / Active / Completed)
+✅ Add animations with Framer Motion
+✅ Add dark mode toggle (ShadCN supports it)
+
