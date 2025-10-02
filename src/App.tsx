@@ -41,6 +41,7 @@ function App() {
           placeholder="Add a task"
           value={input}
           onChange={(e) => setInput(e.target.value)}
+          className="text-black"
         />
         <Button onClick={addTodo}>Add</Button>
       </div>
